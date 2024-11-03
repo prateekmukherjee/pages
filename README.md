@@ -9,8 +9,8 @@
 
 
 ## Education
-- BS.,Computer Science|Florida Polytechnic University (_Aug 2024_)								       		
-- Concentration, Big Data Analytics|Florida Polytechnic University (_Aug 2024_)	 			        		
+BS.,Computer Science|Florida Polytechnic University (_Aug 2024_)								       		
+Concentration, Big Data Analytics|Florida Polytechnic University (_Aug 2024_)	 			        		
 
 
 ## Work Experience
