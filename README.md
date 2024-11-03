@@ -74,5 +74,5 @@ We implement a time series analysis of natural gas prices using various forecast
 
 
 ## Blogs & Publications
--
--
+- **Updates Coming Soon!**
+- Check back later for our latest
