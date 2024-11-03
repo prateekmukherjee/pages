@@ -14,7 +14,7 @@
 
 
 ## Work Experience
-**Data Engineer / Computer Vison Intern, Tylmen Tech (_JMay 2023 — Apr 2024_)**
+**Data Engineer / Computer Vison Intern, Tylmen Tech (_May 2023 — Apr 2024_)**
 - Extracted precise measurements from human 3D models using advanced computer vision techniques, leading to a 30% increase in the accuracy and clarity of the final models.
 - Optimized 3D model generation by incorporating AR-driven instructions, reducing processing time by 15%.
 - Engineered a scalable data pipeline, which improved system efficiency by 25%, resulting in faster data integration and reduced manual intervention.
