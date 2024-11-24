@@ -57,17 +57,17 @@ In this project I take raw housing data which is a dump from MSSQL Server, creat
 
 ### Web Scraping using OpenWeatherMap API 
 
-In this project we demonstrate how to use the OpenWeatherMap API to fetch weather data for a specific city and perform EDA on the results 
+In this project I demonstrate how to use the OpenWeatherMap API to fetch weather data for a specific city and perform EDA on the results 
 
 ### Credit Risk Analysis 
 
-In this project, we examine credit risk using logistic regression and various machine learning models applied to the American Express dataset. Our goal is to identify the most effective model for predicting credit card defaults and to pinpoint the key variables influencing credit risk. 
+In this project, I examine credit risk using logistic regression and various machine learning models applied to the American Express dataset. Our goal is to identify the most effective model for predicting credit card defaults and to pinpoint the key variables influencing credit risk. 
 
-### TV Ad. Performance Analysis 
+### TV Advertisement Performance Analysis 
 
-In this project study advertising and survey data of a client and analyze which networks are the most cost efficient by calculating Cost Per Visitor (CPV), Conversion Rate (CR), and Cost Per Acquisition (CPA) driven by the TV campaign.
+In this project I study advertising and survey data of a client and analyze which networks are the most cost efficient by calculating Cost Per Visitor (CPV), Conversion Rate (CR), and Cost Per Acquisition (CPA) driven by the TV campaign.
 
-### Analyze, Predict Nat_Gas Prices with Time Series
+### Analyze and Predict Natural Gas Prices with Time Series
 
 I implement a time series analysis of natural gas prices using various forecasting models like ARIMA, SARIMA, Exponential Smoothing and Transformer based time series model TimeGPT. Performance metrics are computed to assess their accuracy. A chat function is implemented to allow users to inquire about specific dates. 
 
