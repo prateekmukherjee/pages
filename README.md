@@ -69,9 +69,12 @@ In this project I study advertising and survey data of a client and analyze whic
 
 ### Analyze and Predict Natural Gas Prices with Time Series
 
-I implement a time series analysis of natural gas prices using various forecasting models like ARIMA, SARIMA, Exponential Smoothing and Transformer based time series model TimeGPT. Performance metrics are computed to assess their accuracy. A chat function is implemented to allow users to inquire about specific dates. 
+I implement a time series analysis of natural gas prices using various forecasting models like ARIMA, SARIMA, Exponential Smoothing and Transformer based time series model TimeGPT. Performance metrics are computed to assess their accuracy. A chat function is implemented to allow users to inquire about specific dates.  
+
+  
 
 
+  
 
 ## My project portfolio
 [@Portfolio](https://prateekmukherjee.github.io/portfolio/)
