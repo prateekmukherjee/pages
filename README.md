@@ -64,9 +64,10 @@
 
 ### Exploring Nashville Housing Data
 
-- **Addressing Missing Values**: Filled in missing `PropertyAddress` values by matching `ParcelID` with existing data.
-- **Removing Duplicates**: Identified and removed duplicate entries based on key fields like `ParcelID`, `SalePrice`, and `PropertyAddress`.
-- **Standardizing Variables**: Converted inconsistent values in the `SoldAsVacant` field and split address columns into structured components.
+- In this project I enhanced the Nashville Housing dataset by addressing missing values, removing duplicates, and standardizing key variables. 
+- Filled in missing `PropertyAddress` values by matching `ParcelID` with existing data.
+- Identified and removed duplicate entries based on key fields like `ParcelID`, `SalePrice`, and `PropertyAddress`.
+- Converted inconsistent values in the `SoldAsVacant` field and split address columns into structured components.
 
 These enhancements ensure the dataset is cleaner, more accurate, and ready for **reliable analysis** and **predictive modeling**, providing a solid foundation for **real estate forecasting** and better decision-making.  
 
@@ -76,22 +77,11 @@ These enhancements ensure the dataset is cleaner, more accurate, and ready for *
 
 ### Credit Risk Analysis 
 
-- **Objective**: Applied logistic regression and machine learning models to predict credit card defaults and identify key risk factors.
-- **Dataset**: American Express dataset (available on Kaggle: [link](https://www.kaggle.com/datasets/pradip11/amexpert-codelab-2021)).
-
-#### Key Steps:
-- **Data Preprocessing**: Loaded data, handled missing values, performed feature engineering, scaled features, and addressed class imbalance using **SMOTE**.
-- **Modeling**: Built and evaluated models: Logistic Regression, Decision Tree, Random Forest, CatBoost, XGBoost, LightGBM, KNN.
-  
-#### Model Evaluation:
+- Applied logistic regression and machine learning models to predict credit card defaults and identify key risk factors.
+- Dataset: American Express dataset (available on Kaggle).
+- Loaded data, handled missing values, performed feature engineering, scaled features, and addressed class imbalance using **SMOTE**.
+- Built and evaluated models: Logistic Regression, Decision Tree, Random Forest, CatBoost, XGBoost, LightGBM, KNN.
 - Evaluated models using **accuracy**, **F1-score**, and **ROC AUC**.
-- **Best Model**: **XGBoost** showed the best performance across all metrics.
-
-#### Key Findings:
-- Significant predictors: **Credit score**, **credit limit utilization**, and **employment duration**.
-- **Age** was not a significant predictor of defaults.
-
-#### Conclusion:
 - Provided insights into credit risk assessment, demonstrating how machine learning can improve credit default prediction and decision-making for financial institutions.
   
 ### TV Advertisement Performance Analysis 
