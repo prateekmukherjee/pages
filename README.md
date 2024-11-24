@@ -74,7 +74,7 @@ I implement a time series analysis of natural gas prices using various forecasti
 
 
 ## My project portfolio
-[Link text](https://prateekmukherjee.github.io/portfolio/)
+[@Portfolio](https://prateekmukherjee.github.io/portfolio/)
 ## Blogs & Publications
 - **Updates Coming Soon!**
 - Check back later for our latest
