@@ -43,8 +43,19 @@
 
 
 ### Predict the future trend of an asset
+- **Goal**: Predict future trends for Nvidia (stock), S&P 500 (index), and Bitcoin (cryptocurrency) using **Long Short-Term Memory (LSTM)** models trained on historical data.
+- **Visualization**: Predicted trends were overlaid with actual values for visual comparison.
+- **Performance Metrics**:  
+  - **RMSE**: Measures prediction accuracy (lower is better).
+  - **MAPE**: Measures percentage deviation from actual values (lower is better).
+- **Additional Indicators**:  
+  - **Simple Moving Average (SMA)**
+  - **Support/Resistance Levels**
+  - **Relative Strength Index (RSI)**
 
-Our goal was to predict the future trend of a stock, index fund, and a cryptocurrency: Nvidia, S&P 500, and Bitcoin. It was done by utilizing Long Short Term Memory (LSTM) models that was be trained from historical data and produced the future stock trend. To compare actual values from the predicted values in a visual way, we presented the predicted values overlayed with the actual values. In addition, to determine the accuracy of our LSTM models, we utilized various performance metrics such as RMSE and MAPE. Also, we utilized additional indicators such as simple moving average (SMA), Support/Resistance, and Relative strength index (RSI). 
+- **Key Points**:
+- LSTM models predicted trends effectively, and performance was assessed using RMSE and MAPE.
+- Technical indicators (SMA, Support/Resistance, RSI) were used alongside LSTM predictions to enhance analysis and improve decision-making.
 
 ### Fine-tune LLM for Sentiment Analysis
 
@@ -53,23 +64,45 @@ Our goal was to predict the future trend of a stock, index fund, and a cryptocur
 
 ### Exploring Nashville Housing Data
 
-In this project I take raw housing data which is a dump from MSSQL Server, created the required table in PostgreSQL database, imported the csv file and transform it in PostgreSQL to make it more usable for analysis. 
+- **Addressing Missing Values**: Filled in missing `PropertyAddress` values by matching `ParcelID` with existing data.
+- **Removing Duplicates**: Identified and removed duplicate entries based on key fields like `ParcelID`, `SalePrice`, and `PropertyAddress`.
+- **Standardizing Variables**: Converted inconsistent values in the `SoldAsVacant` field and split address columns into structured components.
+
+These enhancements ensure the dataset is cleaner, more accurate, and ready for **reliable analysis** and **predictive modeling**, providing a solid foundation for **real estate forecasting** and better decision-making.  
 
 ### Web Scraping using OpenWeatherMap API 
 
-In this project I demonstrate how to use the OpenWeatherMap API to fetch weather data for a specific city and perform EDA on the results 
+- In this project I demonstrate how to use the OpenWeatherMap API to fetch weather data for a specific city and perform EDA on the results 
 
 ### Credit Risk Analysis 
 
-In this project, I examine credit risk using logistic regression and various machine learning models applied to the American Express dataset. Our goal is to identify the most effective model for predicting credit card defaults and to pinpoint the key variables influencing credit risk. 
+- **Objective**: Applied logistic regression and machine learning models to predict credit card defaults and identify key risk factors.
+- **Dataset**: American Express dataset (available on Kaggle: [link](https://www.kaggle.com/datasets/pradip11/amexpert-codelab-2021)).
 
+#### Key Steps:
+- **Data Preprocessing**: Loaded data, handled missing values, performed feature engineering, scaled features, and addressed class imbalance using **SMOTE**.
+- **Modeling**: Built and evaluated models: Logistic Regression, Decision Tree, Random Forest, CatBoost, XGBoost, LightGBM, KNN.
+  
+#### Model Evaluation:
+- Evaluated models using **accuracy**, **F1-score**, and **ROC AUC**.
+- **Best Model**: **XGBoost** showed the best performance across all metrics.
+
+#### Key Findings:
+- Significant predictors: **Credit score**, **credit limit utilization**, and **employment duration**.
+- **Age** was not a significant predictor of defaults.
+
+#### Conclusion:
+- Provided insights into credit risk assessment, demonstrating how machine learning can improve credit default prediction and decision-making for financial institutions.
+  
 ### TV Advertisement Performance Analysis 
 
-In this project I study advertising and survey data of a client and analyze which networks are the most cost efficient by calculating Cost Per Visitor (CPV), Conversion Rate (CR), and Cost Per Acquisition (CPA) driven by the TV campaign.
+- In this project I study advertising and survey data of a client
+- Analyze which networks are the most cost efficient by calculating Cost Per Visitor (CPV), Conversion Rate (CR), and Cost Per Acquisition (CPA) driven by the TV campaign.
 
 ### Analyze and Predict Natural Gas Prices with Time Series
 
-I implement a time series analysis of natural gas prices using various forecasting models like ARIMA, SARIMA, Exponential Smoothing and Transformer based time series model TimeGPT. Performance metrics are computed to assess their accuracy. A chat function is implemented to allow users to inquire about specific dates.  
+- I implement a time series analysis of natural gas prices using various forecasting models like ARIMA, SARIMA, Exponential Smoothing and Transformer based time series model TimeGPT.
+- Performance metrics are computed to assess their accuracy. A chat function is implemented to allow users to inquire about specific dates.  
 
   
 
