@@ -53,7 +53,7 @@
   - **Support/Resistance Levels**
   - **Relative Strength Index (RSI)**
 
-- **Key Points**:
+**Key Points**:
 - LSTM models predicted trends effectively, and performance was assessed using RMSE and MAPE.
 - Technical indicators (SMA, Support/Resistance, RSI) were used alongside LSTM predictions to enhance analysis and improve decision-making.
 
@@ -69,7 +69,7 @@
 - Identified and removed duplicate entries based on key fields like `ParcelID`, `SalePrice`, and `PropertyAddress`.
 - Converted inconsistent values in the `SoldAsVacant` field and split address columns into structured components.
 
-These enhancements ensure the dataset is cleaner, more accurate, and ready for **reliable analysis** and **predictive modeling**, providing a solid foundation for **real estate forecasting** and better decision-making.  
+These enhancements ensure the dataset is cleaner, more accurate, and ready for reliable analysis and predictive modeling, providing a solid foundation for real estate forecasting and better decision-making.  
 
 ### Web Scraping using OpenWeatherMap API 
 
@@ -79,9 +79,9 @@ These enhancements ensure the dataset is cleaner, more accurate, and ready for *
 
 - Applied logistic regression and machine learning models to predict credit card defaults and identify key risk factors.
 - Dataset: American Express dataset (available on Kaggle).
-- Loaded data, handled missing values, performed feature engineering, scaled features, and addressed class imbalance using **SMOTE**.
+- Loaded data, handled missing values, performed feature engineering, scaled features, and addressed class imbalance using SMOTE.
 - Built and evaluated models: Logistic Regression, Decision Tree, Random Forest, CatBoost, XGBoost, LightGBM, KNN.
-- Evaluated models using **accuracy**, **F1-score**, and **ROC AUC**.
+- Evaluated models using accuracy, F1-score, and ROC AUC.
 - Provided insights into credit risk assessment, demonstrating how machine learning can improve credit default prediction and decision-making for financial institutions.
   
 ### TV Advertisement Performance Analysis 
